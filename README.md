@@ -10,6 +10,8 @@ log:
 
 ## level: error
 
+然后 service mosdns restart即可
+
 2023-3-19更新：兼容V5，要安装之前的就砍掉重练吧。
 
 
