@@ -2,6 +2,14 @@
 
 一个在Debian（或衍生版）上安装[mosdns](https://github.com/IrineSistiana/mosdns)的shell脚本。
 
+# mosdns默认产生的log文件太大，很快就会占用几个G，用过修改config文件来改变
+
+把/opt/mosdns/config-v5.yaml中log level改为error级别，默认为debug
+
+log:
+
+## level: error
+
 2023-3-19更新：兼容V5，要安装之前的就砍掉重练吧。
 
 
